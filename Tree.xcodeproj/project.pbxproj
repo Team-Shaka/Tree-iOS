@@ -10,10 +10,34 @@
 		34C18DB62F63E6E6FFC054D9 /* Pods_Tree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB637CC46CA04CB21A8AD9 /* Pods_Tree.framework */; };
 		EE386D3B2B4E6B7D00699E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D3A2B4E6B7D00699E14 /* AppDelegate.swift */; };
 		EE386D3D2B4E6B7D00699E14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D3C2B4E6B7D00699E14 /* SceneDelegate.swift */; };
-		EE386D3F2B4E6B7D00699E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D3E2B4E6B7D00699E14 /* ViewController.swift */; };
-		EE386D422B4E6B7D00699E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE386D402B4E6B7D00699E14 /* Main.storyboard */; };
 		EE386D442B4E6B7E00699E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE386D432B4E6B7E00699E14 /* Assets.xcassets */; };
 		EE386D472B4E6B7E00699E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE386D452B4E6B7E00699E14 /* LaunchScreen.storyboard */; };
+		EE386D5B2B4E6EB200699E14 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE386D5D2B4E6EB200699E14 /* Localizable.strings */; };
+		EE386D622B4E6FAB00699E14 /* TreeImageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D612B4E6FAB00699E14 /* TreeImageCollection.swift */; };
+		EE386D642B4E6FB500699E14 /* TreeStringCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D632B4E6FB500699E14 /* TreeStringCollection.swift */; };
+		EE386D662B4E6FC700699E14 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D652B4E6FC700699E14 /* UIView+.swift */; };
+		EE386D682B4E719900699E14 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D672B4E719900699E14 /* UIViewController+.swift */; };
+		EE386D6A2B4E71DC00699E14 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D692B4E71DC00699E14 /* UIColor+.swift */; };
+		EE386D6C2B4E72D200699E14 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D6B2B4E72D200699E14 /* String+.swift */; };
+		EE386D712B4E74A500699E14 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D702B4E74A500699E14 /* FeedViewController.swift */; };
+		EE386D732B4E74B700699E14 /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D722B4E74B700699E14 /* TreeViewController.swift */; };
+		EE386D752B4E74CE00699E14 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D742B4E74CE00699E14 /* SettingViewController.swift */; };
+		EE386D7E2B4E754D00699E14 /* TRNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D7D2B4E754D00699E14 /* TRNetworkError.swift */; };
+		EE386D802B4E755700699E14 /* TRURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D7F2B4E755700699E14 /* TRURLRequest.swift */; };
+		EE386D822B4E756200699E14 /* TRNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D812B4E756200699E14 /* TRNetworkManager.swift */; };
+		EE386D842B4E757F00699E14 /* TreeAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D832B4E757F00699E14 /* TreeAuthError.swift */; };
+		EE386D862B4E758B00699E14 /* TreeAuthURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D852B4E758B00699E14 /* TreeAuthURLRequest.swift */; };
+		EE386D882B4E759300699E14 /* TreeAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D872B4E759300699E14 /* TreeAuthManager.swift */; };
+		EE386D8A2B4E75BB00699E14 /* TreeNetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D892B4E75BB00699E14 /* TreeNetworkResult.swift */; };
+		EE386D8D2B4E7DAE00699E14 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D8C2B4E7DAE00699E14 /* InvitationViewController.swift */; };
+		EE386D8F2B4E88A300699E14 /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D8E2B4E88A300699E14 /* Dictionary+.swift */; };
+		EE386D912B4E8B3800699E14 /* TreeNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D902B4E8B3800699E14 /* TreeNetworkManager.swift */; };
+		EE386D932B4E8B4500699E14 /* TreeNetworkURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D922B4E8B4500699E14 /* TreeNetworkURLRequest.swift */; };
+		EE386D972B4E8B7800699E14 /* TreeNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D962B4E8B7800699E14 /* TreeNetworkError.swift */; };
+		EE386D992B4E8C6D00699E14 /* TreeURLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D982B4E8C6D00699E14 /* TreeURLManager.swift */; };
+		EE386D9C2B4E8D5900699E14 /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D9B2B4E8D5900699E14 /* UserDefaultsWrapper.swift */; };
+		EE386D9E2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D9D2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift */; };
+		EE386DA02B4E8DAC00699E14 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D9F2B4E8DAC00699E14 /* Member.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +47,37 @@
 		EE386D372B4E6B7D00699E14 /* Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE386D3A2B4E6B7D00699E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE386D3C2B4E6B7D00699E14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE386D3E2B4E6B7D00699E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EE386D412B4E6B7D00699E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE386D432B4E6B7E00699E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE386D462B4E6B7E00699E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE386D482B4E6B7E00699E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE386D5C2B4E6EB200699E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE386D5F2B4E6EDD00699E14 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE386D602B4E6EE600699E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EE386D612B4E6FAB00699E14 /* TreeImageCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeImageCollection.swift; sourceTree = "<group>"; };
+		EE386D632B4E6FB500699E14 /* TreeStringCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeStringCollection.swift; sourceTree = "<group>"; };
+		EE386D652B4E6FC700699E14 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		EE386D672B4E719900699E14 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		EE386D692B4E71DC00699E14 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		EE386D6B2B4E72D200699E14 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		EE386D702B4E74A500699E14 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		EE386D722B4E74B700699E14 /* TreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeViewController.swift; sourceTree = "<group>"; };
+		EE386D742B4E74CE00699E14 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EE386D7D2B4E754D00699E14 /* TRNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRNetworkError.swift; sourceTree = "<group>"; };
+		EE386D7F2B4E755700699E14 /* TRURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRURLRequest.swift; sourceTree = "<group>"; };
+		EE386D812B4E756200699E14 /* TRNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRNetworkManager.swift; sourceTree = "<group>"; };
+		EE386D832B4E757F00699E14 /* TreeAuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAuthError.swift; sourceTree = "<group>"; };
+		EE386D852B4E758B00699E14 /* TreeAuthURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAuthURLRequest.swift; sourceTree = "<group>"; };
+		EE386D872B4E759300699E14 /* TreeAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAuthManager.swift; sourceTree = "<group>"; };
+		EE386D892B4E75BB00699E14 /* TreeNetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNetworkResult.swift; sourceTree = "<group>"; };
+		EE386D8C2B4E7DAE00699E14 /* InvitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
+		EE386D8E2B4E88A300699E14 /* Dictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+.swift"; sourceTree = "<group>"; };
+		EE386D902B4E8B3800699E14 /* TreeNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNetworkManager.swift; sourceTree = "<group>"; };
+		EE386D922B4E8B4500699E14 /* TreeNetworkURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNetworkURLRequest.swift; sourceTree = "<group>"; };
+		EE386D962B4E8B7800699E14 /* TreeNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNetworkError.swift; sourceTree = "<group>"; };
+		EE386D982B4E8C6D00699E14 /* TreeURLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeURLManager.swift; sourceTree = "<group>"; };
+		EE386D9B2B4E8D5900699E14 /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapper.swift; sourceTree = "<group>"; };
+		EE386D9D2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapperKey.swift; sourceTree = "<group>"; };
+		EE386D9F2B4E8DAC00699E14 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,16 +130,11 @@
 		EE386D392B4E6B7D00699E14 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				EE386D522B4E6D7300699E14 /* App */,
+				EE386D512B4E6D6E00699E14 /* Models */,
 				EE386D502B4E6C5700699E14 /* Scenes */,
 				EE386D4F2B4E6C5200699E14 /* Utils */,
 				EE386D4E2B4E6BC600699E14 /* Resources */,
-				EE386D3A2B4E6B7D00699E14 /* AppDelegate.swift */,
-				EE386D3C2B4E6B7D00699E14 /* SceneDelegate.swift */,
-				EE386D3E2B4E6B7D00699E14 /* ViewController.swift */,
-				EE386D402B4E6B7D00699E14 /* Main.storyboard */,
-				EE386D432B4E6B7E00699E14 /* Assets.xcassets */,
-				EE386D452B4E6B7E00699E14 /* LaunchScreen.storyboard */,
-				EE386D482B4E6B7E00699E14 /* Info.plist */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -97,6 +142,13 @@
 		EE386D4E2B4E6BC600699E14 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EE386D482B4E6B7E00699E14 /* Info.plist */,
+				EE386D432B4E6B7E00699E14 /* Assets.xcassets */,
+				EE386D452B4E6B7E00699E14 /* LaunchScreen.storyboard */,
+				EE386D552B4E6DA500699E14 /* propertyList */,
+				EE386D542B4E6D9F00699E14 /* Fonts */,
+				EE386D532B4E6D9400699E14 /* launchImages */,
+				EE386D5D2B4E6EB200699E14 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -104,6 +156,9 @@
 		EE386D4F2B4E6C5200699E14 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EE386D9A2B4E8D3800699E14 /* UserDefaultsWrapper */,
+				EE386D572B4E6E2000699E14 /* TreeCollections */,
+				EE386D562B4E6E0C00699E14 /* Extensions */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -111,8 +166,171 @@
 		EE386D502B4E6C5700699E14 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EE386D6F2B4E746000699E14 /* FeedScenes */,
+				EE386D6E2B4E745300699E14 /* TreeScenes */,
+				EE386D6D2B4E744D00699E14 /* SettingScenes */,
+				EE386D8B2B4E7D6D00699E14 /* InvitationScenes */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EE386D512B4E6D6E00699E14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D792B4E752900699E14 /* Notification */,
+				EE386D782B4E751E00699E14 /* Network */,
+				EE386D772B4E751200699E14 /* Structure */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE386D522B4E6D7300699E14 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D3A2B4E6B7D00699E14 /* AppDelegate.swift */,
+				EE386D3C2B4E6B7D00699E14 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE386D532B4E6D9400699E14 /* launchImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = launchImages;
+			sourceTree = "<group>";
+		};
+		EE386D542B4E6D9F00699E14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EE386D552B4E6DA500699E14 /* propertyList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = propertyList;
+			sourceTree = "<group>";
+		};
+		EE386D562B4E6E0C00699E14 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D652B4E6FC700699E14 /* UIView+.swift */,
+				EE386D672B4E719900699E14 /* UIViewController+.swift */,
+				EE386D692B4E71DC00699E14 /* UIColor+.swift */,
+				EE386D6B2B4E72D200699E14 /* String+.swift */,
+				EE386D8E2B4E88A300699E14 /* Dictionary+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE386D572B4E6E2000699E14 /* TreeCollections */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D632B4E6FB500699E14 /* TreeStringCollection.swift */,
+				EE386D612B4E6FAB00699E14 /* TreeImageCollection.swift */,
+			);
+			path = TreeCollections;
+			sourceTree = "<group>";
+		};
+		EE386D6D2B4E744D00699E14 /* SettingScenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D742B4E74CE00699E14 /* SettingViewController.swift */,
+			);
+			path = SettingScenes;
+			sourceTree = "<group>";
+		};
+		EE386D6E2B4E745300699E14 /* TreeScenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D722B4E74B700699E14 /* TreeViewController.swift */,
+			);
+			path = TreeScenes;
+			sourceTree = "<group>";
+		};
+		EE386D6F2B4E746000699E14 /* FeedScenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D702B4E74A500699E14 /* FeedViewController.swift */,
+			);
+			path = FeedScenes;
+			sourceTree = "<group>";
+		};
+		EE386D772B4E751200699E14 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D892B4E75BB00699E14 /* TreeNetworkResult.swift */,
+				EE386D9F2B4E8DAC00699E14 /* Member.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		EE386D782B4E751E00699E14 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D982B4E8C6D00699E14 /* TreeURLManager.swift */,
+				EE386D7A2B4E753200699E14 /* Tree */,
+				EE386D7C2B4E754000699E14 /* protocols */,
+				EE386D7B2B4E753600699E14 /* Auth */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EE386D792B4E752900699E14 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		EE386D7A2B4E753200699E14 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D902B4E8B3800699E14 /* TreeNetworkManager.swift */,
+				EE386D922B4E8B4500699E14 /* TreeNetworkURLRequest.swift */,
+				EE386D962B4E8B7800699E14 /* TreeNetworkError.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		EE386D7B2B4E753600699E14 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D872B4E759300699E14 /* TreeAuthManager.swift */,
+				EE386D852B4E758B00699E14 /* TreeAuthURLRequest.swift */,
+				EE386D832B4E757F00699E14 /* TreeAuthError.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EE386D7C2B4E754000699E14 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D812B4E756200699E14 /* TRNetworkManager.swift */,
+				EE386D7F2B4E755700699E14 /* TRURLRequest.swift */,
+				EE386D7D2B4E754D00699E14 /* TRNetworkError.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		EE386D8B2B4E7D6D00699E14 /* InvitationScenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D8C2B4E7DAE00699E14 /* InvitationViewController.swift */,
+			);
+			path = InvitationScenes;
+			sourceTree = "<group>";
+		};
+		EE386D9A2B4E8D3800699E14 /* UserDefaultsWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				EE386D9D2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift */,
+				EE386D9B2B4E8D5900699E14 /* UserDefaultsWrapper.swift */,
+			);
+			path = UserDefaultsWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +372,12 @@
 			};
 			buildConfigurationList = EE386D322B4E6B7D00699E14 /* Build configuration list for PBXProject "Tree" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = EE386D2E2B4E6B7D00699E14;
 			productRefGroup = EE386D382B4E6B7D00699E14 /* Products */;
@@ -176,8 +395,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE386D472B4E6B7E00699E14 /* LaunchScreen.storyboard in Resources */,
+				EE386D5B2B4E6EB200699E14 /* Localizable.strings in Resources */,
 				EE386D442B4E6B7E00699E14 /* Assets.xcassets in Resources */,
-				EE386D422B4E6B7D00699E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,29 +449,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE386D3F2B4E6B7D00699E14 /* ViewController.swift in Sources */,
+				EE386D642B4E6FB500699E14 /* TreeStringCollection.swift in Sources */,
+				EE386D8F2B4E88A300699E14 /* Dictionary+.swift in Sources */,
+				EE386D8D2B4E7DAE00699E14 /* InvitationViewController.swift in Sources */,
+				EE386D862B4E758B00699E14 /* TreeAuthURLRequest.swift in Sources */,
+				EE386DA02B4E8DAC00699E14 /* Member.swift in Sources */,
+				EE386D752B4E74CE00699E14 /* SettingViewController.swift in Sources */,
+				EE386D8A2B4E75BB00699E14 /* TreeNetworkResult.swift in Sources */,
+				EE386D9E2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift in Sources */,
+				EE386D712B4E74A500699E14 /* FeedViewController.swift in Sources */,
+				EE386D732B4E74B700699E14 /* TreeViewController.swift in Sources */,
+				EE386D842B4E757F00699E14 /* TreeAuthError.swift in Sources */,
+				EE386D622B4E6FAB00699E14 /* TreeImageCollection.swift in Sources */,
+				EE386D972B4E8B7800699E14 /* TreeNetworkError.swift in Sources */,
+				EE386D6C2B4E72D200699E14 /* String+.swift in Sources */,
+				EE386D822B4E756200699E14 /* TRNetworkManager.swift in Sources */,
+				EE386D882B4E759300699E14 /* TreeAuthManager.swift in Sources */,
+				EE386D682B4E719900699E14 /* UIViewController+.swift in Sources */,
 				EE386D3B2B4E6B7D00699E14 /* AppDelegate.swift in Sources */,
+				EE386D9C2B4E8D5900699E14 /* UserDefaultsWrapper.swift in Sources */,
 				EE386D3D2B4E6B7D00699E14 /* SceneDelegate.swift in Sources */,
+				EE386D912B4E8B3800699E14 /* TreeNetworkManager.swift in Sources */,
+				EE386D7E2B4E754D00699E14 /* TRNetworkError.swift in Sources */,
+				EE386D932B4E8B4500699E14 /* TreeNetworkURLRequest.swift in Sources */,
+				EE386D662B4E6FC700699E14 /* UIView+.swift in Sources */,
+				EE386D992B4E8C6D00699E14 /* TreeURLManager.swift in Sources */,
+				EE386D6A2B4E71DC00699E14 /* UIColor+.swift in Sources */,
+				EE386D802B4E755700699E14 /* TRURLRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EE386D402B4E6B7D00699E14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE386D412B4E6B7D00699E14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EE386D452B4E6B7E00699E14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EE386D462B4E6B7E00699E14 /* Base */,
+				EE386D602B4E6EE600699E14 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EE386D5D2B4E6EB200699E14 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE386D5C2B4E6EB200699E14 /* en */,
+				EE386D5F2B4E6EDD00699E14 /* ko */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,6 +508,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -326,6 +572,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
