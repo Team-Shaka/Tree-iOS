@@ -1,0 +1,32 @@
+//
+//  TRNetworkError.swift
+//  Tree
+//
+//  Created by BoMin Lee on 1/10/24.
+//
+
+import Foundation
+
+enum TRNetworkError {
+    case wrongURLRequestError
+    case badRequestError
+    case forbiddenError
+    case notFoundError
+    case internalServerError
+    case networkError(statusCode: Int)
+    case requestFail(code: String, message: String)
+}
+
+extension TRNetworkError: LocalizedError {
+    var errorDescription: String? {
+        switch self {
+        case .wrongURLRequestError: return NSLocalizedString("Wrong URL Request Error", comment: "")
+        case .badRequestError: return NSLocalizedString("Bad Request Error", comment: "")
+        case .forbiddenError: return NSLocalizedString("Forbidden Error", comment: "")
+        case .notFoundError: return NSLocalizedString("Not Found Error", comment: "")
+        case .internalServerError: return NSLocalizedString("Internal Server Error", comment: "")
+        case let .networkError(statusCode): return NSLocalizedString("Network Error(status code: \(statusCode)", comment: "")
+        case let .requestFail(_, message): return NSLocalizedString(message, comment: "")
+        }
+    }
+}
