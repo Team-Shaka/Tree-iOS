@@ -13,7 +13,7 @@ final class TreeNetworkManager: TRNetworkManager {
     private init() { }
     
     @UserDefaultWrapper(key: .member, defaultValue: nil)
-    var member: Member?
+    var user: User?
 }
 
 extension TreeNetworkManager {

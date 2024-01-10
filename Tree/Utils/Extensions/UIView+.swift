@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 extension UIView {
     func addSubviews(_ views: UIView...) {

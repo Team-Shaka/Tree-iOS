@@ -37,7 +37,8 @@
 		EE386D992B4E8C6D00699E14 /* TreeURLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D982B4E8C6D00699E14 /* TreeURLManager.swift */; };
 		EE386D9C2B4E8D5900699E14 /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D9B2B4E8D5900699E14 /* UserDefaultsWrapper.swift */; };
 		EE386D9E2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D9D2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift */; };
-		EE386DA02B4E8DAC00699E14 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D9F2B4E8DAC00699E14 /* Member.swift */; };
+		EE386DA22B4E8ED600699E14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386DA12B4E8ED600699E14 /* User.swift */; };
+		EE386DA42B4E8F1E00699E14 /* UIRectEdge+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386DA32B4E8F1E00699E14 /* UIRectEdge+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,7 +78,8 @@
 		EE386D982B4E8C6D00699E14 /* TreeURLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeURLManager.swift; sourceTree = "<group>"; };
 		EE386D9B2B4E8D5900699E14 /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapper.swift; sourceTree = "<group>"; };
 		EE386D9D2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapperKey.swift; sourceTree = "<group>"; };
-		EE386D9F2B4E8DAC00699E14 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		EE386DA12B4E8ED600699E14 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE386DA32B4E8F1E00699E14 /* UIRectEdge+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRectEdge+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				EE386D692B4E71DC00699E14 /* UIColor+.swift */,
 				EE386D6B2B4E72D200699E14 /* String+.swift */,
 				EE386D8E2B4E88A300699E14 /* Dictionary+.swift */,
+				EE386DA32B4E8F1E00699E14 /* UIRectEdge+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -263,7 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				EE386D892B4E75BB00699E14 /* TreeNetworkResult.swift */,
-				EE386D9F2B4E8DAC00699E14 /* Member.swift */,
+				EE386DA12B4E8ED600699E14 /* User.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
@@ -453,7 +456,6 @@
 				EE386D8F2B4E88A300699E14 /* Dictionary+.swift in Sources */,
 				EE386D8D2B4E7DAE00699E14 /* InvitationViewController.swift in Sources */,
 				EE386D862B4E758B00699E14 /* TreeAuthURLRequest.swift in Sources */,
-				EE386DA02B4E8DAC00699E14 /* Member.swift in Sources */,
 				EE386D752B4E74CE00699E14 /* SettingViewController.swift in Sources */,
 				EE386D8A2B4E75BB00699E14 /* TreeNetworkResult.swift in Sources */,
 				EE386D9E2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift in Sources */,
@@ -466,9 +468,11 @@
 				EE386D822B4E756200699E14 /* TRNetworkManager.swift in Sources */,
 				EE386D882B4E759300699E14 /* TreeAuthManager.swift in Sources */,
 				EE386D682B4E719900699E14 /* UIViewController+.swift in Sources */,
+				EE386DA42B4E8F1E00699E14 /* UIRectEdge+.swift in Sources */,
 				EE386D3B2B4E6B7D00699E14 /* AppDelegate.swift in Sources */,
 				EE386D9C2B4E8D5900699E14 /* UserDefaultsWrapper.swift in Sources */,
 				EE386D3D2B4E6B7D00699E14 /* SceneDelegate.swift in Sources */,
+				EE386DA22B4E8ED600699E14 /* User.swift in Sources */,
 				EE386D912B4E8B3800699E14 /* TreeNetworkManager.swift in Sources */,
 				EE386D7E2B4E754D00699E14 /* TRNetworkError.swift in Sources */,
 				EE386D932B4E8B4500699E14 /* TreeNetworkURLRequest.swift in Sources */,
@@ -556,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -614,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -635,16 +639,15 @@
 				DEVELOPMENT_TEAM = UKZF3A6P2B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tree/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.Tree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -664,16 +667,15 @@
 				DEVELOPMENT_TEAM = UKZF3A6P2B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tree/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.Tree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

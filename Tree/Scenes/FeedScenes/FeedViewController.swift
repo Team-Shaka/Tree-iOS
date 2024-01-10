@@ -5,4 +5,8 @@
 //  Created by BoMin Lee on 1/10/24.
 //
 
-import Foundation
+import UIKit
+
+class FeedViewController: UIViewController {
+    
+}
