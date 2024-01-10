@@ -1,0 +1,6 @@
+framework module Pods_Tree {
+  umbrella header "Pods-Tree-umbrella.h"
+
+  export *
+  module * { export * }
+}
