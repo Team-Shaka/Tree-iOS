@@ -36,6 +36,8 @@
 		EE386D9E2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386D9D2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift */; };
 		EE386DA22B4E8ED600699E14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386DA12B4E8ED600699E14 /* User.swift */; };
 		EE386DA42B4E8F1E00699E14 /* UIRectEdge+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE386DA32B4E8F1E00699E14 /* UIRectEdge+.swift */; };
+		EE563B942B527AEB004F99FB /* ReceivedInvitationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE563B932B527AEB004F99FB /* ReceivedInvitationsViewController.swift */; };
+		EE563B992B527B50004F99FB /* InvitationsCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE563B982B527B50004F99FB /* InvitationsCardTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		EE386D9D2B4E8D6400699E14 /* UserDefaultsWrapperKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapperKey.swift; sourceTree = "<group>"; };
 		EE386DA12B4E8ED600699E14 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EE386DA32B4E8F1E00699E14 /* UIRectEdge+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRectEdge+.swift"; sourceTree = "<group>"; };
+		EE563B932B527AEB004F99FB /* ReceivedInvitationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedInvitationsViewController.swift; sourceTree = "<group>"; };
+		EE563B982B527B50004F99FB /* InvitationsCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationsCardTableViewCell.swift; sourceTree = "<group>"; };
 		F13F2E9E36C49405EEEBDF48 /* Pods_Tree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -313,7 +317,9 @@
 		EE386D8B2B4E7D6D00699E14 /* InvitationScenes */ = {
 			isa = PBXGroup;
 			children = (
+				EE563B952B527B06004F99FB /* Components */,
 				EE386D8C2B4E7DAE00699E14 /* InvitationViewController.swift */,
+				EE563B932B527AEB004F99FB /* ReceivedInvitationsViewController.swift */,
 			);
 			path = InvitationScenes;
 			sourceTree = "<group>";
@@ -325,6 +331,14 @@
 				EE386D9B2B4E8D5900699E14 /* UserDefaultsWrapper.swift */,
 			);
 			path = UserDefaultsWrapper;
+			sourceTree = "<group>";
+		};
+		EE563B952B527B06004F99FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE563B982B527B50004F99FB /* InvitationsCardTableViewCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,10 +467,12 @@
 				EE386D732B4E74B700699E14 /* TreeViewController.swift in Sources */,
 				EE386D622B4E6FAB00699E14 /* TreeImageCollection.swift in Sources */,
 				EE386D972B4E8B7800699E14 /* TreeNetworkError.swift in Sources */,
+				EE563B992B527B50004F99FB /* InvitationsCardTableViewCell.swift in Sources */,
 				EE386D6C2B4E72D200699E14 /* String+.swift in Sources */,
 				EE386D822B4E756200699E14 /* TRNetworkManager.swift in Sources */,
 				EE386D682B4E719900699E14 /* UIViewController+.swift in Sources */,
 				EE386DA42B4E8F1E00699E14 /* UIRectEdge+.swift in Sources */,
+				EE563B942B527AEB004F99FB /* ReceivedInvitationsViewController.swift in Sources */,
 				EE386D3B2B4E6B7D00699E14 /* AppDelegate.swift in Sources */,
 				EE386D9C2B4E8D5900699E14 /* UserDefaultsWrapper.swift in Sources */,
 				EE386D3D2B4E6B7D00699E14 /* SceneDelegate.swift in Sources */,
