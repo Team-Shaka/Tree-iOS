@@ -13,4 +13,12 @@ struct TreeNetworkResult<T: Codable>: Codable {
     let message: String
     let createdAt: Date
     let result: T?
+    
+    enum CodingKeys: String, CodingKey {
+        case isSuccess
+        case code
+        case message
+        case createdAt = "created_at"
+        case result
+    }
 }
