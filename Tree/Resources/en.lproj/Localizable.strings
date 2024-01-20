@@ -5,3 +5,33 @@
   Created by BoMin Lee on 1/10/24.
   
 */
+
+"appName" = "Tree";
+
+"greetings" = "Nice to Meet You!";
+"phoneEnter" = "Enter Phone Number to Join!";
+"phonePlaceholder" = "Your Phone Number";
+"phoneDescription" = "Your phone number is encrypted on device.\nAnd we cannot know your actual phone number in any ways.";
+"sendVerification" = "Send Verification Number";
+"enterVerification" = "Enter verification number sent to";
+"verify" = "Verify";
+
+"hello" = "Hello";
+"getUserId" = "Can we get your User ID?";
+"userIdDescription" = "User ID is unchangeable, so be careful...\nIt will be shown in any Tree, with your member name.";
+"userIdPlaceholder" = "Your User ID";
+"seeMyProfile" = "See My Profile";
+
+"oh" = "Oh";
+"whatANice" = "What a nice";
+"youWillBeSeen" = "You will be seen like this...";
+"memberNameDescription" = "You will create member name and profile image when you get into Tree.";
+"noIWantToChange" = "No, I want to change it.";
+"likeIt" = "Like it!";
+
+"congratulations" = "Congratulations!";
+"seeInvitations" = "Now you can see Invitations!";
+"firstInvitationsDescription" = "You cannot deny first invitation that make you join Tree.";
+
+"see" = "See Tree";
+"deny" = "Deny";
