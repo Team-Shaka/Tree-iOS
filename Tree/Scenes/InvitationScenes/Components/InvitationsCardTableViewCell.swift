@@ -18,25 +18,27 @@ class InvitationsCardTableViewCell: UITableViewCell {
     
     private var senderProfileImageView: UIImageView = {
         let imageView = UIImageView()
-        
+        imageView.contentMode = .scaleAspectFill
+        imageView.layer.masksToBounds = true
+        imageView.layer.cornerRadius = 35.0
         return imageView
     }()
     
     private var invitationMessageLabel: UILabel = {
         let label = UILabel()
-        
+        label.textAlignment = .center
         return label
     }()
     
     private var treeImageView: UIImageView = {
         let imageView = UIImageView()
-        
+        imageView.image = TreeImageCollection.treeGreen
         return imageView
     }()
     
     private var treeNameLabel: UILabel = {
         let label = UILabel()
-        
+//        label.text = 
         return label
     }()
     
@@ -114,12 +116,15 @@ class InvitationsCardTableViewCell: UITableViewCell {
         
         senderProfileImageView.snp.makeConstraints{ make in
             make.centerX.equalToSuperview()
-            make.top.equalToSuperview().offset(26)
+            make.top.equalToSuperview().offset(24)
             make.width.height.equalTo(70)
         }
         
         invitationMessageLabel.snp.makeConstraints{ make in
             make.centerX.equalTo(senderProfileImageView)
+            make.top.equalTo(senderProfileImageView.snp.bottom).offset(16)
         }
+        
+        
     }
 }
