@@ -23,7 +23,7 @@ final class TreeStringCollection {
     static let appName: String = NSLocalizedString("appName", comment: "")
     static let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
     
-    enum OnBoarding: String, EnumeratedLocalized {
+    enum Onboarding: String, EnumeratedLocalized {
         case greetings
         case phoneEnter
         case phonePlaceholder
@@ -45,6 +45,12 @@ final class TreeStringCollection {
         case congratulations
         case seeInvitations
         case firstInvitationsDescription
+    }
+    
+    enum Titles: String, EnumeratedLocalized {
+        case invitationsTitle
+        case receivedInvitationsTitle
+        case memberProfileTitle
     }
     
     enum Button: String, EnumeratedLocalized {

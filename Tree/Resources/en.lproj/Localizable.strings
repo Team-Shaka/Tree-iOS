@@ -33,5 +33,9 @@
 "seeInvitations" = "Now you can see Invitations!";
 "firstInvitationsDescription" = "You cannot deny first invitation that make you join Tree.";
 
+"invitationsTitle" = "Invitations";
+"receivedInvitationsTitle" = "Received Invitations";
+"memberProfileTitle" = "Member Profile";
+
 "see" = "See Tree";
 "deny" = "Deny";
