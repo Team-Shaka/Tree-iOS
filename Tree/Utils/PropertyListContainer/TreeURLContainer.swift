@@ -1,8 +1,8 @@
 //
-//  TreeURLManager.swift
+//  TreeURLContainer.swift
 //  Tree
 //
-//  Created by BoMin Lee on 1/10/24.
+//  Created by BoMin Lee on 1/20/24.
 //
 
 import Foundation
@@ -11,12 +11,12 @@ enum TreeURLKey: String {
     case baseUrl = "tree"
 }
 
-final class TreeURLManager {
+final class TreeURLContainer {
     private init() { }
     
-    /// Tree URL function
-    /// - Parameter key: treeUrlKey
-    /// - Returns: URL
+    /// Tree URL Functions
+    ///  - Parameter key: treeUrlKey
+    ///  - Returns: URL
     static func url(key: TreeURLKey) -> URL {
         #if DEBUG
         guard let fileUrl = Bundle.main.url(forResource: "url-debug", withExtension: "plist") else { fatalError("DOSEN'T EXIST URL FILE") }
@@ -30,11 +30,8 @@ final class TreeURLManager {
         return url
     }
     
-    /// Tree URL Request function
-    /// - Parameter key: treeUrlKey
-    /// - Returns: URLRequest
     static func urlRequest(key: TreeURLKey) -> URLRequest {
-        let url = TreeURLManager.url(key: key)
+        let url = TreeURLContainer.url(key: key)
         return URLRequest(url: url)
     }
 }

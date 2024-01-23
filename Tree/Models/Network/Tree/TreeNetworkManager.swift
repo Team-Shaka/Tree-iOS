@@ -17,5 +17,8 @@ final class TreeNetworkManager: TRNetworkManager {
 }
 
 extension TreeNetworkManager {
-    
+    func fetchInvitations(completion: @escaping (_ value: InvitationData?, _ error: Error?) -> Void) {
+        let url = TreeURLContainer.url(key: .baseUrl)
+//        guard let userId =
+    }
 }
